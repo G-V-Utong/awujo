@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import { FaSearch, FaAngleDown } from 'react-icons/fa';
 import { MdNotificationsNone } from "react-icons/md";
 import MyDropdown from '/Components/myDropDown';
+import Logo from '../logo'
 
 // const navLinks = [
 //     {title:'Home', path: '/'},
@@ -41,24 +42,20 @@ const Notification = () => <MdNotificationsNone className='fill-regal-blue ml-1 
 
 const Header = () => {
     return (
-        <div className="md:h-48 items-start grid grid-cols-3 grid-rows-1 md:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1 md:grid-cols-7 lg:grid-cols-7 xl:grid-cols-8 gap-x-2 md:gap-x-4 lg:gap-x-8 xl:gap-x-8 p-4 py-8">
-            <div className="col-span-2 jusrify-center">
-                <Link href="/" legacyBehavior>
-                    <a style={{display: 'flex', alignItems: 'center', color: 'white', fontFamily: 'Inter'}}><Image alt='Logo' src={Vector} layout='static' className='w-5 mr-2 md:w-8 lg:w-10 xl:w-12'/><Image alt='Logo' src={Group} layout='static' className='w-16 md:w-28 lg:w-40 xl:w-44'/></a>
-                </Link>
-            </div>
-            <div className="col-span-3 md:col-span-3 lg:col-span-4 xl:col-span-4 md:flex flex-row md:text-sm xl:text-xl text-white justify-between items-center hidden md:ml-10 lg:ml-0 xl:ml-0 lg:justify-evenly xl:justify-evenly">
+        <div className="bg-regal-blue md:h-44 items-start grid grid-cols-3 grid-rows-1 md:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1 md:grid-cols-7 lg:grid-cols-7 xl:grid-cols-8 gap-x-2 md:gap-x-4 lg:gap-x-8 xl:gap-x-8 p-4 py-8">
+            <Logo />
+            <div className="col-span-3 md:col-span-3 lg:col-span-3 xl:col-span-4 md:flex flex-row md:text-sm lg:text-xl xl:text-xl text-white justify-between items-center hidden md:ml-10 lg:ml-0 xl:ml-0 lg:justify-evenly xl:justify-evenly">
                 <NavLink href='/'>Home</NavLink>
                 <NavLink href='/games'>Games</NavLink>
                 <NavLink href='/Leaderboard'>Leaderboard</NavLink>
 
-                <label className='relative text-white focus-within:text-white lg:inline hidden'>
+                <label className='relative text-white focus-within:text-white xl:inline hidden'>
                     <Question/>
                     <input type='text' placeholder='Find a tournament' className='h-12 bg-transparent  w-50 lg:h-8  xl:h-12  xl:w-55 lg:w-50 shadow-[inset_-6px_-6px_4px_rgba(255,255,255,0.1),inset_6px_6px_4px_rgba(0,0,0,0.15)] rounded-3xl focus:outline-none lg:pl-10 xl:pl-14'></input>
                 </label>
                 
             </div>
-            <div className= "flex flex-row text-md md:text-sm 2xl:text-xl text-white justify-between md:justify-evenly lg:justify-between items-center md:col-span-2 lg:col-span-1 xl:col-span-2">
+            <div className= "flex flex-row text-md md:text-sm 2xl:text-xl text-white justify-between md:justify-evenly lg:justify-between items-center md:col-span-2 lg:col-span-2 xl:col-span-2">
                 <Link href='/my_wallet' className='hidden xl:inline'>
                     My wallet
                 </Link>
