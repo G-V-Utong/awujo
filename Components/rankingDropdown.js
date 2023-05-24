@@ -1,6 +1,6 @@
 import { Menu, Transition } from '@headlessui/react'
 import React, { Fragment } from 'react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { FaChevronDown } from 'react-icons/fa';
 import Link from 'next/link';
 
 function classNames(...classes) {
@@ -9,6 +9,8 @@ function classNames(...classes) {
 
 export default function MyRankingDropdown() {
 
+const AngleDown = () => <FaChevronDown className='ml-2' />
+
   return (
     <Menu as="div" className="md:hidden relative inline-block text-left font-Inter">
       <div>
@@ -16,7 +18,7 @@ export default function MyRankingDropdown() {
           <h1 className=''>
             All
           </h1> 
-          <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
+          <AngleDown className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
         </Menu.Button>
       </div>
 

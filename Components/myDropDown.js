@@ -1,8 +1,6 @@
 import { Menu, Transition } from '@headlessui/react'
 import React, { Fragment } from 'react';
-import { FaAngleDown } from 'react-icons/fa';
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { NavLink } from './Header/header';
+import { FaChevronDown } from 'react-icons/fa';
 import Link from 'next/link';
 
 function classNames(...classes) {
@@ -11,17 +9,17 @@ function classNames(...classes) {
 
 export default function MyDropdown() {
 
-  const AngleDown = () => <FaAngleDown className='ml-2' />
+  const AngleDown = () => <FaChevronDown className='ml-2' />
 
 
   return (
     <Menu as="div" className="relative inline-block text-left font-Inter">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center lg:gap-x-1.5 rounded-md bg-none lg:px-3 lg:py-2 text-sm font-semibold text-white hover:text-gray-500">
+        <Menu.Button className="flex items-center w-full justify-center lg:gap-x-1.5 rounded-md bg-none lg:px-3 lg:py-2 text-sm font-semibold text-white hover:text-gray-500">
           <h1 className='hidden md:inline-flex'>
             stanleywest
           </h1> 
-          <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
+          <AngleDown className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
         </Menu.Button>
       </div>
 
