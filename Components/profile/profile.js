@@ -24,7 +24,7 @@ const Star = () => <FaStar className='fill-hover'/>;
 
 export default function Profile () {
     return (
-        <div className='w-screen md:w-full overflow-x-auto flex justify-between font-Inter mb-12'>
+        <div className='w-76 md:w-full overflow-x-auto flex justify-between font-Inter mb-12'>
             <div className='mr-4 text-center hover:bg-gray-700 hover:rounded-lg'>
                 <button className='w-20 h-20 rounded-full border-2 border-hover bg-white'>
                     <Image alt='profile photo' src={Shola} className='w-20 h-18 rounded-full'></Image>

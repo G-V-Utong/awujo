@@ -28,8 +28,8 @@ export default function Home() {
         <div className='pl-4 pr-4 pt-2 pb-2 md:p-p-4'>
           <Profile/>
         </div>
-        <div className='ml-4 md:ml-8 lg:ml-0  md:flex md:justify-center'>
-          <div className='font-Inter pt-2 pl-4 pb-2 pr-4 md:pt-4 md:pl-12 md:pb-4 md:pr-12 w-10/12 lg:w-full h-128 md:w-11/12 xl:h-128 bg-article rounded-2xl border-y-2 border-hover mb-20'>
+        <div className='md:ml-8 lg:ml-0  md:flex flex justify-center'>
+          <div className='font-Inter pt-2 pl-4 pb-2 pr-4 md:pt-4 md:pl-12 md:pb-4 md:pr-12 w-10/12 lg:w-full h-128 md:w-11/12 xl:h-128 bg-article rounded-2xl border-t-2 border-t-hover mb-20'>
             <div className='mb-3 flex justify-between items-center'>
               <h1 className='font-bold text-sm md:text-xl '>Live ranking</h1>
               <div className='text-xs md:text-xs justify-center md:justify-between w-14 h-8 md:w-72 md:h-10 font-Inter bg-hover bg-opacity-50 rounded-xl flex items-center'>
