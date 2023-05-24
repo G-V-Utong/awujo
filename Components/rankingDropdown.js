@@ -14,7 +14,7 @@ const AngleDown = () => <FaChevronDown className='ml-2' />
   return (
     <Menu as="div" className="md:hidden relative inline-block text-left font-Inter">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center lg:gap-x-1.5 rounded-md bg-none lg:px-3 lg:py-2 text-sm text-white hover:text-gray-500">
+        <Menu.Button className="inline-flex items-center w-full justify-center lg:gap-x-1.5 rounded-md bg-none lg:px-3 lg:py-2 text-sm text-white hover:text-gray-500">
           <h1 className=''>
             All
           </h1> 
