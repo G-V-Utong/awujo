@@ -35,7 +35,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     1
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Sammy} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -59,7 +59,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     2
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Santino} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -83,7 +83,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     3
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Onome} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -107,7 +107,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     4
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Ben} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -131,7 +131,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     5
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Tammy} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -155,7 +155,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     6
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Shola} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -179,7 +179,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     7
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Twilio} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -203,7 +203,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     8
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Sammy} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -227,7 +227,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     9
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Ben} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
@@ -251,7 +251,7 @@ function Ranking() {
                 <div className='bg-ranking text-xs md:text-base rounded-full w-4 h-4 md:w-8 md:h-8 flex justify-center text-center mx-1 md:mx-3 items-center'>
                     10
                 </div>
-                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-4 items-center justify-between'>
+                <div className='font-Inter flex pl-3 pr-3 md:pl-6 md:pr-6 bg-ranking rounded-2xl h-14 w-52 md:w-128 md:h-18 mb-2 mt-2 items-center justify-between'>
                     <div className='flex items-center'>
                         <Image alt='Sammy' src={Tammy} className='w-4 h-4 md:w-14 md:h-14 rounded-full'></Image>
                         <div className='ml-3'>
