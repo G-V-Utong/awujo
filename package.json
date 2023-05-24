@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.4.1",
@@ -23,8 +24,5 @@
   "devDependencies": {
     "tailwind-scrollbar": "^3.0.4"
   },
-
-  
   "license": "UNLICENSED"
-
 }
