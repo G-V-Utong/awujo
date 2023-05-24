@@ -42,7 +42,7 @@ const Notification = () => <MdNotificationsNone className='fill-regal-blue ml-1 
 
 const Header = () => {
     return (
-        <div className="bg-regal-blue md:h-44 items-start grid grid-cols-3 grid-rows-1 md:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1 md:grid-cols-7 lg:grid-cols-7 xl:grid-cols-8 gap-x-2 md:gap-x-4 lg:gap-x-8 xl:gap-x-8 p-4 py-8">
+        <div className="bg-regal-blue md:h-32 lg:h-44 items-start grid grid-cols-3 grid-rows-1 md:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1 md:grid-cols-7 lg:grid-cols-7 xl:grid-cols-8 gap-x-2 md:gap-x-4 lg:gap-x-8 xl:gap-x-8 p-4 py-8">
             <Logo />
             <div className="col-span-3 md:col-span-3 lg:col-span-3 xl:col-span-4 md:flex flex-row md:text-sm lg:text-xl xl:text-xl text-white justify-between items-center hidden md:ml-10 lg:ml-0 xl:ml-0 lg:justify-evenly xl:justify-evenly">
                 <NavLink href='/'>Home</NavLink>
