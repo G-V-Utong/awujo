@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         
       </div>
-      <div className=' hidden lg:inline-flex h-150 w-128 bg-article rounded-2xl'>
+      <div className='hidden lg:ml-10 lg:inline-flex h-150 w-128 bg-article rounded-2xl'>
         
       </div>
       </div>
