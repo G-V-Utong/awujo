@@ -25,7 +25,7 @@ export default function Home() {
             Top players on Afriguild this week
           </h1>
         </div>
-        <div className='pl-4 pr-4 pt-2 pb-2 md:p-p-4'>
+        <div className='flex justify-center'>
           <Profile/>
         </div>
         <div className='md:ml-8 lg:ml-0  md:flex flex justify-center'>
